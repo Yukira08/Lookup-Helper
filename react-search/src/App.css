@@ -1,0 +1,17 @@
+.centered {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem auto;
+}
+
+.heading { 
+  font-family: var(--font-family-roboto);
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1.5rem;
+  letter-spacing: .2rem;
+  color: var(--color-dark-purple);
+}

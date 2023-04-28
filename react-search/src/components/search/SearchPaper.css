@@ -1,0 +1,103 @@
+.search {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/searchPaper.png");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.search h1{
+    font-family: var(--font-family-roboto);
+    font-weight: 700;
+    letter-spacing: .15rem;
+    font-size: 50px;
+    color: var(--color-white);
+}
+
+.search p {
+    font-family: var(--font-family-open);
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+.searchForm {
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchForm input{
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 60px;
+    padding: 1rem 2rem;
+    border-radius: 12px 0 0 12px;
+    font-size: 20px;
+    font-family:  var(--font-family-open);
+}
+
+.searchForm button{
+    height: 60px;
+    border: none;
+    outline: none;
+    width: 80px;
+    background: #6E5FD2;
+    color: white;
+    border-radius: 0 12px 12px 0;
+    padding: 10px 20px;
+}
+
+.results {
+    font-family: var(--font-family-open);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sort select{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: var(--font-family-open);
+    font-weight: 500;
+    background: #e9ecef;
+    border-radius: 10px;
+    margin-right: 5px ;
+
+
+}
+
+
+
+
+/* .filterCard{
+    background: #e9ecef;
+    position: absolute;
+    padding: 12px 20px;
+}
+
+.filterCard .close{
+    position: relative;
+    left: 270px;
+    top: -8px;
+}
+
+.filterCard input{
+    border: none;
+    margin-left: 10px;
+}
+
+.filter-btn {
+    background-color: #6E5FD2;
+    border-radius: 5px;
+}
+
+.filter-btn button{
+    color: #fff;
+} */

@@ -1,0 +1,54 @@
+.search__items-heading h5{
+    font-family: var(--font-family-roboto);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: var(--color-black);
+}
+
+.search__items-heading a{
+    text-decoration-color: black;
+}
+
+.search__items-heading p{
+    font-family: var(--font-family-open);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.search__date {
+    font-family: var(--font-family-open);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.search__database p,
+.search__citation p{
+    font-family: var(--font-family-open);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search__database p:last-child{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.search__citation p:last-child{
+    font-weight: 700;
+}
+
+.search__items hr{
+    color: var(--color-black);
+    border-top: 10px solid black;
+}
+.hr{
+    content: "";
+    width: 100%;
+    background: black;
+    height: 4px;
+    margin: 2rem 0;
+}

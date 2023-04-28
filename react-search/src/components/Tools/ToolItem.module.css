@@ -1,0 +1,40 @@
+.image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+     height: 200px;
+     overflow: hidden;
+ }
+ 
+ 
+ .image img{
+     margin-top: 20px;
+     width: 90%;
+     height: auto;
+ }
+ 
+ .container{
+     padding: 10px 20px;
+ }
+ 
+ .name{
+     margin: 10px 0px;
+     font-size: 25px;
+     font-family: var(--font-family-roboto);
+     font-weight: 700;
+     letter-spacing: .05rem ;
+     
+ }
+ .name a{
+     text-decoration: none;
+     color: var(--color-black);
+ }
+ .content{
+     margin-bottom: 10px;
+     font-family: var(--font-family-open);
+     font-size: 17px;
+     font-weight: 500;
+     line-height: 30px;
+ }
+
+ 
